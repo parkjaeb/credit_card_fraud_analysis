@@ -2,35 +2,68 @@
 
 ![headers_fraud-prev](images/headers_fraud-prev.jpg)
 
-As a university student deeply curious about the hidden stories data can tell, I dove into this project fueled by my passion for data analysis and a strong desire to make a difference. I'm always on the lookout for opportunities where I can apply my skills in meaningful ways, and this challenge to ensure the safety of credit card transactions caught my full attention. With an ambition to help this company be recognized as the safest credit card provider, I embraced the task of minimizing missed fraud cases. My apporach was thoughtful yet cautions, aiming to flag suspicious transactoins even at the risk of encountering some false positives. This project isn't just an adcademic exercise for me; it's about real-world impact, protecting people, and learning immensely along the way.
+As a university student fascinated by the hidden insights within data, I embarked on this project driven by my passion for data analysis and a strong desire to make an impact. Ensuring the safety of credit card transactions is a pressing challenge, and I saw this as an opportunity to apply my analytical skills in a meaningful way.
 
-# Source: Kaggle 
+With the ambition to help establish this company as the safest credit card provider, I focused on minimizing missed fraud cases. My approach was thoughtful yet cautious, erring on the side of flagging potentially fraudulent transactions, even at the risk of some false positives. This project isn’t just an academic exercise for me—it’s about real-world impact, protecting consumers, and learning invaluable lessons along the way.
+
+# Source: Kaggle (https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 
 # How I Approached the Analysis
 
-1. Diving into the data 
-    I plunged into a vast ocean of over 550,000 transactions, where only a tiny fraction - 0.4% were fradulent. My task was to sift through various transaction attributes, such as categories, amounts, times, and locations, to detect underlying patterns of fraud.
-2. Crafting New Tools 
-    Realizing the need for sharper tools in my arsenal, I engineered new features that could capture subtle signs of fraud. These included patterns in the timing of transactions, geographical treds, and identifying particularly risky transaction categories.
-3. Uncovering the Patterns of Deceit 
-    My investigations revealed that the witching hours of between 10 PM and 3 AM were prime times for fraudsters, particularly in the realm of online shopping, and transactions above $500 bore the highest risk.
-4. Mapping the Fraud Landscape 
-    A closer look at the geography of fraud showed an intriguing pattern: despite fewer transactions, New York emerged as the fraud capital with the highest percentage of fraud cases, surpassing even Texas, which had the highest volume of transactions but a lower proportion of fraud.
+📊 Exploring the Data
 
-# Insights and Storylines from the data
+I delved into a vast dataset of over 550,000 transactions, where fraud cases accounted for a mere 0.4%. The challenge was clear: find patterns that distinguish fraudulent transactions from legitimate ones.
 
-The late-night transactions, especially at 10 PM, were the peak hours for fraudsters to strike.
+To uncover hidden signals, I examined transaction attributes such as:
+✔️ Transaction categories (e.g., online shopping, cash withdrawals)
+✔️ Transaction amounts (e.g., high-value transactions)
+✔️ Time of transaction (e.g., late-night fraud activity)
+✔️ Geographic trends (e.g., states with higher fraud rates)
 
-The virtual marketplace, particularly high-ticket items, turned out to be their preferred hunting ground.
+🛠️ Feature Engineering: Sharpening My Detection Tools
 
-New York, with its bustling, diverse environment, presented the highest risk and thus the focal point of our preventative strategies.
+Realizing the need for better fraud indicators, I crafted new features to enhance fraud detection:
+🚀 Transaction Time Patterns – Identified high-risk fraud hours.
+🌎 Geographical Fraud Hotspots – Analyzed which states had higher fraud rates.
+🛒 Risky Transaction Categories – Highlighted categories that saw the most fraud cases.
 
-# Drawing Conclusions and Looking Forward 
+🔎 Key Findings: Uncovering the Fraud Playbook
 
-This narrative isn't just about numbers; it's about understanding and preempting human behavior to project our customers. The patterns I've unveiled through this data tell us where to watch more closely and how to sharpen our defenses. My recommendations?
+⏰ Fraudsters Strike at Night
 
-1. Highten monitoring during the high-risk nocturnal hours.
-2. Tighten checks for transactions that scream 'high-ticket'.
-3. Focus the company's strategic efforts on regions like New York that are prone to fraud.
+🔸 The highest fraud activity occurred between 10 PM and 3 AM—a time when users are less likely to notice unusual transactions.
 
-This tale of data and detection has set the stage for future endeavors to develop even more sophisticated tools to combat fraud, ensuring safety and integrity within the realms the company operates.
+🛒 Online Shopping & High-Value Transactions Are Prime Targets
+
+🔸 E-commerce platforms were a major target for fraudsters, especially transactions over $500.
+
+🌍 The Fraud Capital: New York Leads in Fraud Rates
+
+🔸 New York had the highest fraud rate, despite having fewer transactions than Texas, which had the highest transaction volume but a lower fraud rate.
+
+# Key Insights & Recommendations
+
+Based on my analysis, I propose the following strategies to strengthen fraud detection:
+
+🔴 Heighten Monitoring During Late-Night Hours
+
+🚨 Increased scrutiny for transactions between 10 PM - 3 AM can significantly reduce fraudulent activity.
+
+💰 Strengthen Checks on High-Ticket Transactions
+
+💳 Tighter security protocols for transactions over $500, particularly in online shopping, can prevent high-value fraud losses.
+
+📍 Focus Fraud Prevention Efforts on High-Risk Regions
+
+🗽 New York has the highest fraud rate—deploying more robust fraud detection systems in this region could mitigate risks.
+
+# Looking Ahead: The Future of Fraud Prevention
+
+This journey in data-driven fraud detection has been both challenging and rewarding. By analyzing patterns of fraudulent behavior, I’ve learned how data science plays a crucial role in financial security.
+
+Moving forward, I aim to:
+🔹 Build machine learning models to automate fraud detection.
+🔹 Expand feature engineering to detect emerging fraud tactics.
+🔹 Develop interactive Tableau dashboards for real-time fraud tracking.
+
+This project is just the beginning of my exploration into financial data analysis, and I’m excited to keep learning, refining my techniques, and contributing to real-world solutions in fraud prevention.
